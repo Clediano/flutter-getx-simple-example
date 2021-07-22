@@ -1,4 +1,4 @@
-# mobx
+# getx
 
 A new Flutter project.
 
