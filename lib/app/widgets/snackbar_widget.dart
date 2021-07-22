@@ -21,8 +21,8 @@ class Snackbar {
     Get.snackbar(
       title,
       message,
-      titleText: titleText,
-      messageText: messageText,
+      titleText: titleText ?? "",
+      messageText: messageText ?? "",
       snackPosition: snackPosition ?? SnackPosition.BOTTOM,
       dismissDirection: dismissDirection ?? SnackDismissDirection.HORIZONTAL,
       icon: icon,
